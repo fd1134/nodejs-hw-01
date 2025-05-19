@@ -10,7 +10,7 @@ const generateContacts = async (number) => {
 
     try {
         const allContacts = await readContacts();
-       allContacts.push(...contacts);
+        allContacts.push(...contacts);
         await writeContacts(allContacts);
     } catch (error) {
         console.error('Error generating contacts:', error);

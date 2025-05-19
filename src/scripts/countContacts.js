@@ -8,5 +8,4 @@ const main = async () => {
     const allContacts = await countContacts();
     console.log(allContacts);
 };
-
 main();
